@@ -1,12 +1,12 @@
 # public_files
 all public files
 pip install rawURL şeklinde kurulur..
-Digital ocean'a kurabilmek için şunları yapmış olmak gerekir.
+
+Pillow kurmadan önce sistemde ilgili resim kütüphanelerinin olması önemlidir.. 
+http://pillow.readthedocs.org/en/3.1.x/installation.html#external-libraries
+
 
 sudo apt-get install build-dep python-imaging
 
-sudo apt-get install libjpeg8 libjpeg62-dev libfreetype6 libfreetype6-dev
-
-gene yetmezse şunu dene
-
-sudo apt-get install python-dev libjpeg-dev libfreetype6-dev zlib1g-dev
+Ubuntu 14 : 
+sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
